@@ -1,0 +1,41 @@
+h1 {
+  font-size: 300%;
+  color: white;
+  text-align: center;
+  background-image: url(https://theclubpenguingarmys.files.wordpress.com/2012/09/cropped-vector-camouflage-seamless-background-prev1-by-dragonart.png);
+}
+
+body {
+  background-image: url(https://cdn3.volusion.com/ezxrc.xcwfb/v/vspfiles/photos/130290-2.jpg?1521455332);
+  background-size: auto;
+}
+
+.page {
+	width: 800px;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.main-nav a{
+	display:inline-block;
+	border-radius: 25px;
+	border-bottom: 10px solid black;
+	background-color:black;
+	color:whitesmoke;
+	text-decoration:none;
+	padding: 5px 10px;
+	position:relative;
+	top:10px;
+	transition: top 300ms ease;
+}
+
+.main-nav a:hover{
+	top:0px;
+}
+
+#cast a:hover {
+  border-bottom: 2px solid green;
+}
