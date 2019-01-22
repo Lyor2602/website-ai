@@ -1,0 +1,58 @@
+iframe {
+  position: relative;
+}
+
+.pre {
+  font-size: 17px;
+  font-family: Arial;
+}
+
+body {
+  background-color: white;
+}
+
+.bottom {
+  background-color: #6788bf;
+  color: white;
+  font-family: serif;
+  padding: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+
+
+.main-nav a{
+	display:inline-block;
+	border-radius: 25px;
+	border-bottom: 10px solid #6788bf;
+	background-color:#6788bf;
+	color:whitesmoke;
+	text-decoration:none;
+	padding: 5px 10px;
+	position:relative;
+	top:10px;
+	transition: top 300ms ease;
+}
+
+.main-nav a:hover{
+	top:0px;
+}
+
+#cast a:hover {
+  border-bottom: 2px solid green;
+}
+
+.header {
+  font-size: 150%;
+  color: white;
+  text-align: center;
+  background-color:#6788bf;
+  padding: 30px;
+}
+
+.rightcolumn {
+  float: right;
+  padding-right: 30px;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}

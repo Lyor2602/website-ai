@@ -18,8 +18,8 @@ body {
 .main-nav a{
 	display:inline-block;
 	border-radius: 25px;
-	border-bottom: 10px solid black;
-	background-color:black;
+	border-bottom: 10px solid #6788bf;
+	background-color:#6788bf;
 	color:whitesmoke;
 	text-decoration:none;
 	padding: 5px 10px;
@@ -81,7 +81,7 @@ p{
   color: white;
   font-weight: bold;
   font-size: 18px;
-  -webkit-transition: all 1s cubic-bezier(.10, .10, .49, .09); 
+  -webkit-transition: all 1s cubic-bezier(.10, .10, .49, .09);
   border-radius: 0 3px 3px 0;
   user-select: none;
 }

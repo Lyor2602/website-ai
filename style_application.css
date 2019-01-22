@@ -1,0 +1,98 @@
+input[type=text] {
+  background-color: whitesmoke;
+  color: black;
+  width: 30%;
+  padding: 10px 30px;
+  margin: 8px 0;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 3px solid Grey;
+  border-radius: 10px;
+}
+
+input[type=why] {
+  text-align: left;
+  background-color: whitesmoke;
+  color: black;
+  width: 80%;
+  padding: 60px 30px;
+  margin: 8px 0;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+  border: 3px solid Grey;
+  border-radius: 10px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #6788bf;
+  width: 25%;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px 80px;
+  cursor: pointer;
+}
+
+.form {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%
+}
+
+body {
+  background-color: white;
+}
+
+.bottom {
+  background-color: #6788bf;
+  color: white;
+  font-family: serif;
+  padding: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+
+
+.main-nav a{
+	display:inline-block;
+	border-radius: 25px;
+	border-bottom: 10px solid #6788bf;
+	background-color:#6788bf;
+	color:whitesmoke;
+	text-decoration:none;
+	padding: 5px 10px;
+	position:relative;
+	top:10px;
+	transition: top 300ms ease;
+}
+
+.main-nav a:hover{
+	top:0px;
+}
+
+#cast a:hover {
+  border-bottom: 2px solid #6788bf;
+}
+
+.header {
+  font-size: 150%;
+  color: white;
+  text-align: center;
+  background-color:#6788bf;
+  padding: 30px;
+}
+
+.preText {
+    width: 750px;
+    word-wrap: break-word;
+}
+
+p{
+  font-size: 100%;
+  font-family: Arial;
+  font-weight: 300;
+}
